@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %} Game Entry Form {% endblock %}
+
+{% block content %}
+<form action="/madlib">
+	<p>Enter a person's name.</p>
+	<input type="text" name="person">
+	<p>Enter your favorite color.</p>
+	<input type="text" name="color">
+	<p>Choose a noun.</p>
+	<input type="text" name="noun">
+	<p>Choose an adjective.</p>
+	<input type="text" name="adjective">
+	<input type="submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
