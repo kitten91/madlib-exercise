@@ -1,0 +1,33 @@
+p {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+	background-color: #63A6F2;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.madlibs {
+	font-style: italic;
+	color: #7719D4;
+}
+
+.submitbutton {
+	background-color: #ed8223;
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	border-radius: 20px;
+	border: 0;
+	text-shadow: #c17c3a 0 -1px 0;
+	width: 120px;
+	height: 32px;
+}
+.submitbutton:hover {
+	background-color: #7719D4;
+}
