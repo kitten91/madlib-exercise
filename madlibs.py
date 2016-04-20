@@ -56,12 +56,20 @@ def show_madlib():
     color_mad = request.args.get("color").lower()
     noun_mad = request.args.get("noun").lower()
     adjective_mad = request.args.get("adjective").lower()
+    tickybox_mad1 = request.args.get("tickybox")
+    tickybox_mad2 = request.args.get("tickybox2")
+    tickybox_mad3 = request.args.get("tickybox3")
+    radio_mad = request.args.get("radio-color")
 
     return render_template("madlib.html",
                             person=person_mad,
                             color=color_mad,
                             noun=noun_mad,
-                            adjective=adjective_mad)
+                            adjective=adjective_mad,
+                            ticky_01=tickybox_mad1,
+                            ticky_02=tickybox_mad2,
+                            ticky_03=tickybox_mad3,
+                            radio=radio_mad)
 
 
 

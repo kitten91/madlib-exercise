@@ -3,8 +3,13 @@ p {
 
 }
 
+.formfont {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body {
-	background-color: #63A6F2;
+	background-color: #328224;
 }
 
 h1 {
